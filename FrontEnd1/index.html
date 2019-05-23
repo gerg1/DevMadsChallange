@@ -27,20 +27,38 @@
                                     <p data-bind="text: Name"></p>
                                 </div>
                             </div>
-                                <div class="row flex-row flex-nowrap" data-bind="foreach: UserStories" style="height: 120px; margin-top: 15px; margin-bottom: 15px;">
-                                    <div class="col">
-                                        <div class="card" style="width: 120px; height: 100px;">
-                                            <div class="card-body userStories" style="padding: 5px;">
+                            <table>
+                                <tbody data-bind="foreach: groups">
+                                        <tr>
+                                            <td>
+
+                                                <!--ko if: ($parents[1].ActivityId === 1) && ($parent.TaskId === 1)-->
                                                 <p data-bind="text: Name"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                                <!--/ko-->
+                                                <!--ko ifnot: ($parents[1].ActivityId === 1) && ($parent.TaskId === 1)-->
+                                                <div style="height: 24px"></div>
+                                                <!--/ko-->
+                                                <div class="row flex-row flex-nowrap" data-bind="foreach: $parent.UserStories" style="height: 120px; margin-top: 15px; margin-bottom: 15px;">
+                                                    <!--ko if: ($parent.TaskId === $data.$TaskId) && ($parent.GroupId === $data.GroupId)-->
+                                                    <div class="col">
+                                                        <div class="card" style="width: 120px; height: 100px;">
+                                                            <div class="card-body userStories" style="padding: 5px;">
+                                                                <p data-bind="text: Name"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--/ko-->
+                                                </div>
+                                            </td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                            
+                            </div>
                         </div>
                 </div>
             </div>
     </div>
-        </div>
     <script type='text/javascript' src="App.js"></script>
 </body>
     </html>

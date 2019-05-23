@@ -9,6 +9,5 @@ namespace WebApplication1.Models {
         [Required]
         public int GroupId { get; set; }
         public string Name { get; set; }
-        public virtual List<UserStory> UserStories { get; set; }
     }
 }

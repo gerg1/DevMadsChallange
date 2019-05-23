@@ -49,8 +49,8 @@ D:\Working\FrontEnd1\bin\roslyn\VBCSCompiler.exe
 D:\Working\FrontEnd1\bin\roslyn\VBCSCompiler.exe.config
 D:\Working\FrontEnd1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Working\FrontEnd1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Working\FrontEnd1\obj\Debug\FrontEnd1.csprojAssemblyReference.cache
 D:\Working\FrontEnd1\obj\Debug\FrontEnd1.csproj.CoreCompileInputs.cache
 D:\Working\FrontEnd1\obj\Debug\FrontEnd1.csproj.CopyComplete
 D:\Working\FrontEnd1\obj\Debug\FrontEnd1.dll
 D:\Working\FrontEnd1\obj\Debug\FrontEnd1.pdb
+D:\Working\FrontEnd1\obj\Debug\FrontEnd1.csprojAssemblyReference.cache

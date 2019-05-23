@@ -1,12 +1,13 @@
 ﻿TrelloPowerUp.initialize({
-    'board-button': function (t, options) {
+    'board-buttons': function (t, options) {
         return [{
-            text: 'Storyboard',
-            callback: callback()
+            text: 'StoryBoard',
+            callback: function (t) {
+                return t.modal({
+                    url: 'index.html',
+                    fullscreen: true, // Whether the modal should stretch to take up the whole screen
+                });
+            }
         }];
-    },
+    }
 });
-
-function callback() {
-    console.log("OK");
-}
