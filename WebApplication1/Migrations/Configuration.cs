@@ -54,7 +54,14 @@ namespace WebApplication1.Migrations
                 new UserStory() { UserStoryId = 3, Name = "UserStory3", TaskId = context.Tasks.Find(2).TaskId, GroupId = context.Groups.Find(2).GroupId },
                 new UserStory() { UserStoryId = 4, Name = "UserStory4", TaskId = context.Tasks.Find(3).TaskId, GroupId = context.Groups.Find(2).GroupId },
                 new UserStory() { UserStoryId = 5, Name = "UserStory5", TaskId = context.Tasks.Find(3).TaskId, GroupId = context.Groups.Find(3).GroupId },
-                new UserStory() { UserStoryId = 6, Name = "UserStory6", TaskId = context.Tasks.Find(4).TaskId, GroupId = context.Groups.Find(3).GroupId });
+                new UserStory() { UserStoryId = 6, Name = "UserStory5", TaskId = context.Tasks.Find(3).TaskId, GroupId = context.Groups.Find(3).GroupId },
+                new UserStory() { UserStoryId = 7, Name = "UserStory5", TaskId = context.Tasks.Find(3).TaskId, GroupId = context.Groups.Find(3).GroupId },
+                new UserStory() { UserStoryId = 8, Name = "UserStory5", TaskId = context.Tasks.Find(3).TaskId, GroupId = context.Groups.Find(3).GroupId },
+                new UserStory() { UserStoryId = 9, Name = "UserStory5", TaskId = context.Tasks.Find(3).TaskId, GroupId = context.Groups.Find(3).GroupId },
+                new UserStory() { UserStoryId = 10, Name = "UserStory5", TaskId = context.Tasks.Find(3).TaskId, GroupId = context.Groups.Find(3).GroupId },
+                new UserStory() { UserStoryId = 11, Name = "UserStory5", TaskId = context.Tasks.Find(3).TaskId, GroupId = context.Groups.Find(3).GroupId },
+                new UserStory() { UserStoryId = 12, Name = "UserStory5", TaskId = context.Tasks.Find(3).TaskId, GroupId = context.Groups.Find(3).GroupId },
+                new UserStory() { UserStoryId = 13, Name = "UserStory6", TaskId = context.Tasks.Find(4).TaskId, GroupId = context.Groups.Find(3).GroupId });
 
         }
     }

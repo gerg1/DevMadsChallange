@@ -86,3 +86,7 @@ D:\Working\WebApplication1\obj\Debug\WebApplication1.pdb
 D:\Working\WebApplication1\obj\Debug\WebApplication1.Migrations.Initial.resources
 D:\Working\WebApplication1\obj\Debug\WebApplication1.csproj.GenerateResource.cache
 D:\Working\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+D:\Working\WebApplication1\bin\System.Web.Cors.dll
+D:\Working\WebApplication1\bin\System.Web.Http.Cors.dll
+D:\Working\WebApplication1\bin\System.Web.Http.Cors.xml
+D:\Working\WebApplication1\obj\Debug\WebApplication1.Migrations.Initial1.resources

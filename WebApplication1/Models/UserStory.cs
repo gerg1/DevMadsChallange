@@ -10,8 +10,6 @@ namespace WebApplication1.Models {
         public int UserStoryId { get; set; }
         public string Name { get; set; }
         public int TaskId { get; set; }
-        //public virtual Task Task { get; set; }
         public int GroupId { get; set; }
-
     }
 }
